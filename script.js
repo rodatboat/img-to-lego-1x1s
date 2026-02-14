@@ -1,10 +1,96 @@
 const plate1x1Colors = [
-    "#009894", "#e2f99a", "#d3f2ea", "#cda4de", "#720012", "#5f3109", "#000001", "#ca4c0b", "#77774e", "#441a91",
-    "#372100", "#897d62", "#1e5aa8", "#70819a", "#b40000", "#ffec6c", "#bb805a", "#00852b", "#7396c8", "#91501c",
-    "#969696", "#ffff00", "#a06eb9", "#901f76", "#e1bea1", "#58ab41", "#fcac00", "#d67923", "#fac80a", "#c8509b",
-    "#f06d78", "#a5ca18", "#68c3e2", "#ff9ecd", "#469bc3", "#9dc3f7", "#708e7c", "#aa7d55", "#f4f4f4", "#ccb98d",
-    "#19325a", "#00451a", "#646464"
+  "#009894", // Bright Bluish Green
+  "#e2f99a", // Spring Yellowish Green
+  "#d3f2ea", // Aqua
+  "#cda4de", // Lavender
+  "#720012", // New Dark Red
+  "#5f3109", // Reddish Brown
+  "#000001", // Black
+  "#ca4c0b", // Reddish Orange
+  "#77774e", // Olive Green
+  "#441a91", // Medium Lilac
+  "#372100", // Dark Brown
+  "#897d62", // Sand Yellow
+  "#1e5aa8", // Bright Blue
+  "#70819a", // Sand Blue
+  "#b40000", // Bright Red
+  "#ffec6c", // Cool Yellow
+  "#bb805a", // Nougat
+  "#00852b", // Dark Green
+  "#7396c8", // Medium Blue
+  "#91501c", // Dark Orange
+  "#969696", // Medium Stone Grey
+  "#ffff00", // Vibrant Yellow
+  "#a06eb9", // Medium Lavender
+  "#901f76", // Bright Reddish Violet
+  "#e1bea1", // Light Nougat
+  "#58ab41", // Bright Green
+  "#fcac00", // Flame Yellowish Orange
+  "#d67923", // Bright Orange
+  "#fac80a", // Bright Yellow
+  "#c8509b", // Bright Purple
+  "#f06d78", // Vibrant Coral
+  "#a5ca18", // Bright Yellowish Green
+  "#68c3e2", // Medium Azur
+  "#ff9ecd", // Light Purple
+  "#469bc3", // Dark Azur
+  "#9dc3f7", // Light Royal Blue
+  "#708e7c", // Sand Green
+  "#aa7d55", // Medium Nougat
+  "#f4f4f4", // White
+  "#ccb98d", // Brick Yellow
+  "#19325a", // Earth Blue
+  "#00451a", // Earth Green
+  "#646464"  // Dark Stone Grey
 ];
+
+
+const tile1x1Colors = [
+  "#009894", // Bright Bluish Green
+  "#e2f99a", // Spring Yellowish Green
+  "#d3f2ea", // Aqua
+  "#cda4de", // Lavender
+  "#000001", // Black
+  "#720012", // New Dark Red
+  "#5f3109", // Reddish Brown
+  "#ca4c0b", // Reddish Orange
+  "#77774e", // Olive Green
+  "#441a91", // Medium Lilac
+  "#372100", // Dark Brown
+  "#897d62", // Sand Yellow
+  "#1e5aa8", // Bright Blue
+  "#70819a", // Sand Blue
+  "#b40000", // Bright Red
+  "#ffec6c", // Cool Yellow
+  "#bb805a", // Nougat
+  "#00852b", // Dark Green
+  "#7396c8", // Medium Blue
+  "#91501c", // Dark Orange
+  "#969696", // Medium Stone Grey
+  "#ffff00", // Vibrant Yellow
+  "#a06eb9", // Medium Lavender
+  "#901f76", // Bright Reddish Violet
+  "#e1bea1", // Light Nougat
+  "#fac80a", // Bright Yellow
+  "#58ab41", // Bright Green
+  "#d67923", // Bright Orange
+  "#fcac00", // Flame Yellowish Orange
+  "#c8509b", // Bright Purple
+  "#f06d78", // Vibrant Coral
+  "#a5ca18", // Bright Yellowish Green
+  "#68c3e2", // Medium Azur
+  "#ff9ecd", // Light Purple
+  "#469bc3", // Dark Azur
+  "#9dc3f7", // Light Royal Blue
+  "#708e7c", // Sand Green
+  "#aa7d55", // Medium Nougat
+  "#ccb98d", // Brick Yellow
+  "#f4f4f4", // White
+  "#19325a", // Earth Blue
+  "#00451a", // Earth Green
+  "#646464"  // Dark Stone Grey
+];
+
 
 function hexToRgb(hex) {
     const bigint = parseInt(hex.slice(1), 16);
