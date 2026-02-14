@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image 2 Lego Plates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Image 2 Lego Plates</h2>
+        <input type="file" id="upload" accept="image/*" />
+        <div class="row">
+            <input type="number" id="width" placeholder="Width (px)" />
+            <input type="number" id="height" placeholder="Height (px)" />
+        </div>
+
+        <label>
+            Max Colors: <span id="colorCountLabel">10</span>
+        </label>
+
+        <input type="range" id="colorSlider" min="1" max="43" value="10" />
+
+        <label>
+            <input type="checkbox" id="keepRatio" />
+            Keep Aspect Ratio
+        </label>
+
+        <button id="resizeBtn">Convert to Lego Plates</button>
+        <button id="downloadBtn" class="download-btn" style="display:none;">
+            Download
+        </button>
+        <img id="preview" />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
